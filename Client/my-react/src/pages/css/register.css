@@ -1,0 +1,59 @@
+.registration{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items:center;
+    padding-top: 100px;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(80, 199, 246);
+    border-radius: 20px;
+    width:500px;
+    height: auto;
+    padding: 20px 20px;
+    background-color: rgb(80, 199, 246);
+   
+}
+
+
+.form #create{
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 40px;
+   
+}
+.form #buttn{
+    margin-top: 10px;
+    height: 40px;
+   
+    border: none;
+    
+}
+
+.form #buttn:hover{
+    border-radius: 10px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+label{
+    font-weight: bold;
+}
+
+
+.Register{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    border:solid 0px;
+    width: 100%;
+    font-style: oblique;
+    
+
+}

@@ -1,0 +1,103 @@
+
+
+
+.comment{
+    margin-top: 5px;
+    border: solid 1px;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+   justify-content: right;
+   width: 400px;
+
+
+}
+.comment .username{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+
+
+}
+.comment:hover{
+box-shadow:rgb(17, 161, 245) 0px 2px 8px 0px;
+ cursor:pointer;
+}
+
+.addComment{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.inpout{
+    border-radius: 10px;
+    width: 100%;
+}
+.inpout:hover{
+    box-shadow: #4CAF50 0px 5px 20px 5px;
+}
+
+button:hover{
+    cursor:pointer;
+
+}
+
+
+.button-52 {
+      font-size: 16px;
+      font-weight: 200;
+      letter-spacing: 1px;
+      padding: 13px 20px 13px;
+      outline: 0;
+      border: 0px solid black;
+      cursor: pointer;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+      user-select: none;
+      -webkit-user-select: none;            
+      touch-action: manipulation;
+      border-radius: 5px;
+ }
+    
+ .button-52:after {
+      content: "";
+      background-color: rgb(24, 202, 48);
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      top: 7px;
+      left: 7px;
+      transition: 0.2s;
+      border-radius: 5px;
+}
+    
+.button-52:hover:after {
+      top: 0px;
+      left: 0px;
+ }
+    
+ @media (min-width: 768px) {
+      .button-52 {
+        padding: 13px 50px 13px;
+     }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 50px; 
+    /* border: solid; */
+}
+.post{
+    display: flex;
+    justify-content: left;
+    /* border: solid; */
+
+}

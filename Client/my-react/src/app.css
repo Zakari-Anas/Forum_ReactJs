@@ -1,0 +1,32 @@
+.nav{
+    background-color: rgb(80, 199, 246);
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: right;
+
+    
+}
+.navlink{
+    margin: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+
+    
+    
+}
+.navlink:hover{
+font-weight: bold;
+color: yellow;
+    
+}
+
+.logo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
